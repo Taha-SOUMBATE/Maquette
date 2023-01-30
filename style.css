@@ -1,0 +1,32 @@
+body {
+  background: url(img/fond.png);
+}
+header {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  background-color: rgb(184, 203, 33);
+}
+a {
+  color: rgb(71, 77, 10);
+}
+div,
+nav,
+li {
+  display: inline-block;
+  vertical-align: middle;
+}
+li {
+  margin-left: 50px;
+}
+nav {
+  width: 50%;
+}
+
+div {
+  width: 400px;
+}
+section {
+  width: 48%;
+  margin: auto;
+}
