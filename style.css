@@ -6,9 +6,10 @@ header {
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 18px;
-  height: 150px;
+  height: 123px;
   background-color: rgb(184, 203, 33);
-  padding-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .link {
   color: rgb(71, 77, 10);
@@ -23,20 +24,22 @@ nav,
   margin-left: 50px;
 }
 nav {
-  width: 70%;
+  margin-left: 160px;
 }
 
 div {
-  width: 200px;
+  width: 150px;
 }
 section,
 header {
-  width: 48%;
+  width: 800px;
   margin: auto;
 }
 
 span {
   float: left;
+  margin-right: 5px;
+  color: rgb(184, 203, 33);
 }
 .imag {
   width: 200px;
@@ -47,20 +50,19 @@ span {
 button {
   background-color: rgb(184, 203, 33);
   border: none;
-  padding: 5px 9px;
+  padding: 9px;
   color: white;
   font-weight: bold;
   margin-left: 573px;
 }
 .back {
   background: white;
-  width: 48%;
   padding-top: 50px;
   padding-bottom: 30px;
-  height: auto;
 }
 h2 {
   margin-top: 0;
+  color: rgb(184, 203, 33);
 }
 article {
   padding-left: 20px;
@@ -69,7 +71,7 @@ article {
 .w3logo {
   width: 50px;
   margin-left: 50%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .text {
   text-align: center;
