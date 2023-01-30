@@ -1,32 +1,81 @@
 body {
   background: url(img/fond.png);
+  margin-top: 0;
 }
 header {
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 18px;
+  height: 150px;
   background-color: rgb(184, 203, 33);
+  padding-top: 20px;
 }
-a {
+.link {
   color: rgb(71, 77, 10);
 }
 div,
 nav,
-li {
+.li {
   display: inline-block;
   vertical-align: middle;
 }
-li {
+.li {
   margin-left: 50px;
 }
 nav {
-  width: 50%;
+  width: 70%;
 }
 
 div {
-  width: 400px;
+  width: 200px;
 }
-section {
+section,
+header {
   width: 48%;
   margin: auto;
+}
+
+.line {
+  float: left;
+}
+.imag {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+  object-fit: cover;
+}
+button {
+  background-color: rgb(184, 203, 33);
+  border: none;
+  padding: 5px 9px;
+  color: white;
+  font-weight: bold;
+  margin-left: 573px;
+}
+.back {
+  background: white;
+  width: 48%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  height: auto;
+}
+h2 {
+  margin-top: 0;
+}
+article {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.w3logo {
+  width: 50px;
+  margin-left: 50%;
+  margin-top: 20px;
+}
+.text {
+  text-align: center;
+}
+
+.down {
+  width: 80%;
+  margin-left: 150px;
 }
